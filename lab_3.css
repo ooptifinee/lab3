@@ -1,0 +1,62 @@
+p{
+    font-style: italic;
+    font-size: 14px;
+    background: rgb(21, 192, 86);
+    border: 4px dashed black;
+    margin: 0;
+    padding: 0.5%;
+}
+.cl1{
+    background: rgb(224, 54, 24);
+    border: 4px solid black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: right;
+
+}
+
+.cl2{
+    background: rgb(194, 100, 46);
+    border: 4px solid black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: right;
+
+}
+.cl3{
+    background: rgb(115, 255, 0);
+    border: 4px solid black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: right;
+
+}
+
+
+@media screen and (min-width: 993px) {
+    .Head{
+        float: left;
+        width: 30%;
+        margin-right: 15px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .Head{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .t1{
+        float: left;
+        width: 48%;
+        margin-right: 15px;
+    }
+    .t2{
+        float: left;
+        width: 48%;
+    }
+    .t3{
+        float: left;
+        width: 98%;
+    }
+}
